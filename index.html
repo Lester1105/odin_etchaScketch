@@ -13,11 +13,12 @@
 <body>
     <h1>ETCH-A-SCKETCH</h1>
     <div class="choices">
-        <button>black</button>
-        <button>rainbow</button>
-        <button>eraser</button>
-        <button onclick="size()">size</button>
+        <button onclick="setColor('black')">black</button>
+        <button onclick="setColor('rainbow')">rainbow</button>
+        <button onclick="setColor('white')">eraser</button>
+        <button onclick="getSize()">size</button>
     </div>
+    <span class="message">choose a size first</span>
 <div class="container"></div>
 
    <script src="script.js"></script> 

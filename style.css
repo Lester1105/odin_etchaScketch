@@ -36,14 +36,16 @@ button:hover{
     cursor: pointer;
 }
 .container{
+    padding: 1px;
    margin: 10px auto;
     border: 5px solid black;
     border-radius: 3px;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     display: grid;
+    overflow: hidden;
 }
 .box{
-    border: .1px dashed rgb(128, 126, 126);
-    background-color: white;
+    border: 1px solid rgb(128, 126, 126);
+    background-color: rgb(255, 255, 255);
 }
