@@ -42,3 +42,7 @@ return container;
 function setColor(chooseColor){
     color=chooseColor;
  };
+ function reset(){
+    let divs=document.querySelectorAll(".box");
+    divs.forEach((div)=>div.style.backgroundColor="white")
+ }
